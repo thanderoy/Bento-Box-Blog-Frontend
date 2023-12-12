@@ -3,19 +3,19 @@ import type { DocumentHead } from "@builder.io/qwik-city";
 
 
 export default component$(() => {
-  return (
-    <>
+    return (
+        <>
 
-    </>
-  );
+        </>
+    );
 });
 
 export const head: DocumentHead = {
-  title: "🍱 Bento Box Blog",
-  meta: [
-    {
-      name: "description",
-      content: "",
-    },
-  ],
+    title: "🍱 Bento Box Blog | {}",
+    meta: [
+        {
+            name: "description",
+            content: "",
+        },
+    ],
 };
